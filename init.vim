@@ -46,11 +46,11 @@ set rtp+=~/.config/nvim/bundle/Vundle.vim
 call vundle#begin('~/.config/nvim/bundle')
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'neoclide/coc.nvim'
+Plugin 'darsto/lightline.vim'
+Plugin 'darsto/coc.nvim'
+Plugin 'darsto/fzf.vim'
 Plugin 'm-pilia/vim-ccls'
-Plugin 'itchyny/lightline.vim'
 Plugin 'ap/vim-buftabline'
-Plugin 'junegunn/fzf.vim'
 
 call vundle#end()
 filetype plugin indent on
