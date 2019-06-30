@@ -35,7 +35,7 @@ if $BUILD_CCLS; then
 fi
 
 if $BUILD_FZF; then
-	git clone --depth=1 --recursive https://github.com/junegunn/fzf.git "$PROJ/fzf" || true
+	git clone --depth=1 --recursive https://github.com/darsto/fzf.git "$PROJ/fzf" || true
 	sudo "$PROJ/fzf/install" --all --64
 fi
 

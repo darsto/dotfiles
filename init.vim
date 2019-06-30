@@ -48,7 +48,7 @@ call vundle#begin('~/.config/nvim/bundle')
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'darsto/lightline.vim'
 Plugin 'darsto/coc.nvim'
-Plugin 'darsto/fzf.vim'
+Plugin 'junegunn/fzf.vim'
 Plugin 'm-pilia/vim-ccls'
 Plugin 'ap/vim-buftabline'
 
